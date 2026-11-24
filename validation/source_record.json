@@ -1,0 +1,7 @@
+{
+  "conceptual_source": "Hands-On Large Language Models, Chapter 9: Multimodal Large Language Models",
+  "url": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models/tree/main/chapter09",
+  "scope": "New independent evaluation notebook; does not modify or redistribute the chapter source notebook.",
+  "created_date": "2026-11-24",
+  "benchmark_status": "pending_user_colab_run"
+}

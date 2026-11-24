@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "unit_tests": 22,
+  "independent_sklearn_cases": 100,
+  "independent_metrics": [
+    "accuracy",
+    "macro_f1_fixed_classes",
+    "confusion_matrix"
+  ],
+  "offline_verifier_corruption_checks": [
+    "metric_value_changed_with_updated_manifest",
+    "csv_correctness_changed_with_updated_manifest",
+    "file_hash_mismatch"
+  ],
+  "scope": "Metric/sampling tests, independent metric cross-checks, and synthetic verifier corruption checks. Not model benchmark results."
+}

@@ -1,0 +1,12 @@
+{
+  "run": "multimodal_20261124T171506Z-2512b9",
+  "executed_code_cells_modified": 0,
+  "raw_result_files_modified": 0,
+  "original_uploaded_notebook_sha256": "2ad93927347105ec1ae6983de60796cd456f27d0e9712fa741bb4783d96ed5bd",
+  "full_notebook_reexecuted": false,
+  "removed_progress_widget_outputs": 14,
+  "removed_download_javascript_outputs": 2,
+  "removed_colab_table_mime_payloads": 5,
+  "preserved": "All 13 code cells, execution counts, numerical streams, standard table payloads and chart image output.",
+  "added": "Completed results interpretation, README, code explanation, separate annotated error worksheet and audit reports."
+}

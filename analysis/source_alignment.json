@@ -1,0 +1,325 @@
+{
+  "scope": "Cached pinned dataset source and saved-row alignment; no model inference or network calls.",
+  "run": "multimodal_20261124T171506Z-2512b9",
+  "recorded_config_matches_project": false,
+  "dataset_id": "uoft-cs/cifar10",
+  "dataset_revision": "0b2714987fa478483af9968de7c934580d0bb9a2",
+  "class_names": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "source_files": {
+    "train": {
+      "cached_path": "/home/agent/.cache/huggingface/hub/datasets--uoft-cs--cifar10/snapshots/0b2714987fa478483af9968de7c934580d0bb9a2/plain_text/train-00000-of-00001.parquet",
+      "sha256": "8428b53a88a11ac374111006708df51469e315a22ac6d66470afd9c78d2ae883",
+      "sha256_matches_config": true,
+      "sha256_matches_recorded_audit": true,
+      "revision_present_in_cached_path": true,
+      "metadata_classes": [
+        "airplane",
+        "automobile",
+        "bird",
+        "cat",
+        "deer",
+        "dog",
+        "frog",
+        "horse",
+        "ship",
+        "truck"
+      ],
+      "class_metadata_matches_config": true,
+      "decoded_image_shape": [
+        50000,
+        32,
+        32,
+        3
+      ],
+      "decoded_dtype": "uint8",
+      "label_count": 50000,
+      "class_counts": [
+        5000,
+        5000,
+        5000,
+        5000,
+        5000,
+        5000,
+        5000,
+        5000,
+        5000,
+        5000
+      ],
+      "expected_count_and_balance": true
+    },
+    "test": {
+      "cached_path": "/home/agent/.cache/huggingface/hub/datasets--uoft-cs--cifar10/snapshots/0b2714987fa478483af9968de7c934580d0bb9a2/plain_text/test-00000-of-00001.parquet",
+      "sha256": "841389e6f2d64f28bf17310e430aebac20ec3ba611a3c5e231dc93c645ce84de",
+      "sha256_matches_config": true,
+      "sha256_matches_recorded_audit": true,
+      "revision_present_in_cached_path": true,
+      "metadata_classes": [
+        "airplane",
+        "automobile",
+        "bird",
+        "cat",
+        "deer",
+        "dog",
+        "frog",
+        "horse",
+        "ship",
+        "truck"
+      ],
+      "class_metadata_matches_config": true,
+      "decoded_image_shape": [
+        10000,
+        32,
+        32,
+        3
+      ],
+      "decoded_dtype": "uint8",
+      "label_count": 10000,
+      "class_counts": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "expected_count_and_balance": true
+    }
+  },
+  "config_differences": {
+    "test_source_split": {
+      "project": null,
+      "recorded": "official_test"
+    }
+  },
+  "recorded_config_matches_project_except_runtime_test_source": true,
+  "config_difference_interpretation": "The run adds test_source_split=official_test; all base project configuration values match.",
+  "recomputed_audit": {
+    "dataset_id": "uoft-cs/cifar10",
+    "revision": "0b2714987fa478483af9968de7c934580d0bb9a2",
+    "source_files": {
+      "train": {
+        "path_in_repository": "plain_text/train-00000-of-00001.parquet",
+        "sha256": "8428b53a88a11ac374111006708df51469e315a22ac6d66470afd9c78d2ae883",
+        "n_examples": 50000
+      },
+      "test": {
+        "path_in_repository": "plain_text/test-00000-of-00001.parquet",
+        "sha256": "841389e6f2d64f28bf17310e430aebac20ec3ba611a3c5e231dc93c645ce84de",
+        "n_examples": 10000
+      }
+    },
+    "hash_definition": "SHA256 of decoded 32x32x3 RGB uint8 bytes",
+    "train_rows_sharing_exact_pixels_with_test_excluded": 0,
+    "additional_duplicate_train_rows_excluded": 0,
+    "eligible_training_rows": 50000,
+    "duplicate_test_rows_beyond_first": 0,
+    "test_policy": "Keep every official test row; report exact duplicates; no near-duplicate audit.",
+    "pretraining_exposure": "Unknown; zero-shot here means no task-specific weight fitting."
+  },
+  "recomputed_audit_matches_recorded": true,
+  "row_alignment": {
+    "development": {
+      "source_split": "train",
+      "n_records": 1000,
+      "expected_class_counts": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "ids_exact_ordered_match": true,
+      "ids_mismatch_count": 0,
+      "labels_exact_ordered_match": true,
+      "labels_mismatch_count": 0,
+      "pixel_hashes_exact_ordered_match": true,
+      "pixel_hashes_mismatch_count": 0
+    },
+    "threshold": {
+      "source_split": "train",
+      "n_records": 1000,
+      "expected_class_counts": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "ids_exact_ordered_match": true,
+      "ids_mismatch_count": 0,
+      "labels_exact_ordered_match": true,
+      "labels_mismatch_count": 0,
+      "pixel_hashes_exact_ordered_match": true,
+      "pixel_hashes_mismatch_count": 0
+    },
+    "test": {
+      "source_split": "test",
+      "n_records": 10000,
+      "expected_class_counts": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "ids_exact_ordered_match": true,
+      "ids_mismatch_count": 0,
+      "labels_exact_ordered_match": true,
+      "labels_mismatch_count": 0,
+      "pixel_hashes_exact_ordered_match": true,
+      "pixel_hashes_mismatch_count": 0
+    }
+  },
+  "development_threshold_disjoint": true,
+  "total_saved_rows_compared": 12000,
+  "total_source_images_decoded": 60000,
+  "error_contact_sheet_rows": [
+    {
+      "row_id": 35092,
+      "actual_label": 4,
+      "actual_class": "deer",
+      "predicted_label": 7,
+      "predicted_class": "horse",
+      "max_softmax_score": 0.9382167650367698,
+      "row_in_reconstructed_development_split": true,
+      "actual_label_matches_source": true,
+      "pixel_sha256": "302b1248071853c29a4465a5598c9751d2a1956af9567f38aa55d50190587b38"
+    },
+    {
+      "row_id": 31566,
+      "actual_label": 5,
+      "actual_class": "dog",
+      "predicted_label": 3,
+      "predicted_class": "cat",
+      "max_softmax_score": 0.933507054283862,
+      "row_in_reconstructed_development_split": true,
+      "actual_label_matches_source": true,
+      "pixel_sha256": "6965dde3dc65cbc0902452af155583a79a5365f4d6e4ab36069741ee956cf493"
+    },
+    {
+      "row_id": 46720,
+      "actual_label": 4,
+      "actual_class": "deer",
+      "predicted_label": 7,
+      "predicted_class": "horse",
+      "max_softmax_score": 0.9291264076618515,
+      "row_in_reconstructed_development_split": true,
+      "actual_label_matches_source": true,
+      "pixel_sha256": "debac77399ad3cb0e3b336110b5485a40bd0ced025c1cf1ce640717ca4c89733"
+    },
+    {
+      "row_id": 28279,
+      "actual_label": 4,
+      "actual_class": "deer",
+      "predicted_label": 7,
+      "predicted_class": "horse",
+      "max_softmax_score": 0.9210144383302126,
+      "row_in_reconstructed_development_split": true,
+      "actual_label_matches_source": true,
+      "pixel_sha256": "501bcb3b9025b5749cbb59f1d789caeaf013c0daa99f89cf353ccbb84cd23211"
+    },
+    {
+      "row_id": 7360,
+      "actual_label": 5,
+      "actual_class": "dog",
+      "predicted_label": 3,
+      "predicted_class": "cat",
+      "max_softmax_score": 0.9096946082094416,
+      "row_in_reconstructed_development_split": true,
+      "actual_label_matches_source": true,
+      "pixel_sha256": "3eaf67b24e440f2ca25e7a0d9a478497df3514c522ff2222fff3a7d207158799"
+    },
+    {
+      "row_id": 9311,
+      "actual_label": 0,
+      "actual_class": "airplane",
+      "predicted_label": 2,
+      "predicted_class": "bird",
+      "max_softmax_score": 0.900032566445528,
+      "row_in_reconstructed_development_split": true,
+      "actual_label_matches_source": true,
+      "pixel_sha256": "822d5a9a84ccc5e733376dbff0befd871ee8b046794195ee06d40675418e49ca"
+    },
+    {
+      "row_id": 39647,
+      "actual_label": 5,
+      "actual_class": "dog",
+      "predicted_label": 4,
+      "predicted_class": "deer",
+      "max_softmax_score": 0.8830421924737429,
+      "row_in_reconstructed_development_split": true,
+      "actual_label_matches_source": true,
+      "pixel_sha256": "f357edb8632767acfc1f184f4f13eef7122c5122182313800bbc66a19aa1e060"
+    },
+    {
+      "row_id": 45583,
+      "actual_label": 6,
+      "actual_class": "frog",
+      "predicted_label": 3,
+      "predicted_class": "cat",
+      "max_softmax_score": 0.8671812796405495,
+      "row_in_reconstructed_development_split": true,
+      "actual_label_matches_source": true,
+      "pixel_sha256": "46e7c0891032a813f91c1da63b3076972f9e84a41b25c788f238adef1315b228"
+    },
+    {
+      "row_id": 35598,
+      "actual_label": 4,
+      "actual_class": "deer",
+      "predicted_label": 7,
+      "predicted_class": "horse",
+      "max_softmax_score": 0.8542848508575436,
+      "row_in_reconstructed_development_split": true,
+      "actual_label_matches_source": true,
+      "pixel_sha256": "e1a5db8182b004e5f9e1f5c1671233518ce797b280bf569fbf27c02506841faf"
+    },
+    {
+      "row_id": 45661,
+      "actual_label": 6,
+      "actual_class": "frog",
+      "predicted_label": 8,
+      "predicted_class": "ship",
+      "max_softmax_score": 0.841806162041677,
+      "row_in_reconstructed_development_split": true,
+      "actual_label_matches_source": true,
+      "pixel_sha256": "8f4d29e97e61fe2c199a083405a84ea33e926904166b9002bf957a8b2a9000a1"
+    }
+  ],
+  "internal_contact_sheet": "multimodal_dev_errors.png",
+  "all_checks_passed": true,
+  "limitations": [
+    "Source alignment verifies IDs, labels, and decoded exact-pixel hashes; it does not rerun the model.",
+    "The audit detects exact decoded RGB duplicates, not near duplicates or pretraining exposure.",
+    "The contact sheet is an internal review aid and was not added to the project."
+  ]
+}

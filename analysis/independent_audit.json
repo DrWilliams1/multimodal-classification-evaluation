@@ -1,0 +1,2424 @@
+{
+  "status": "passed",
+  "run_directory": "results/multimodal_20261124T171506Z-2512b9",
+  "audit_implementation": {
+    "metric_library": "scikit-learn",
+    "scikit_learn_version": "1.8.0",
+    "softmax_library": "scipy.special.softmax",
+    "scipy_version": "1.17.0",
+    "numpy_version": "2.3.5",
+    "project_metric_helpers_imported": false,
+    "model_inference_repeated": false,
+    "numeric_absolute_tolerance": 2e-14
+  },
+  "checks": [
+    {
+      "check": "development: finite logits and expected shape",
+      "passed": true
+    },
+    {
+      "check": "development: balanced expected class support",
+      "passed": true
+    },
+    {
+      "check": "development: unique row IDs",
+      "passed": true
+    },
+    {
+      "check": "development: unique decoded pixel hashes",
+      "passed": true
+    },
+    {
+      "check": "development:label_only:n_examples",
+      "passed": true
+    },
+    {
+      "check": "development:label_only:accuracy",
+      "passed": true
+    },
+    {
+      "check": "development:label_only:macro_f1",
+      "passed": true
+    },
+    {
+      "check": "development:label_only:per_class_recall",
+      "passed": true
+    },
+    {
+      "check": "development:label_only:confusion_matrix",
+      "passed": true
+    },
+    {
+      "check": "development:label_only:n_errors",
+      "passed": true
+    },
+    {
+      "check": "development:label_only:logit versus softmax argmax agrees",
+      "passed": true
+    },
+    {
+      "check": "development:photo_prompt:n_examples",
+      "passed": true
+    },
+    {
+      "check": "development:photo_prompt:accuracy",
+      "passed": true
+    },
+    {
+      "check": "development:photo_prompt:macro_f1",
+      "passed": true
+    },
+    {
+      "check": "development:photo_prompt:per_class_recall",
+      "passed": true
+    },
+    {
+      "check": "development:photo_prompt:confusion_matrix",
+      "passed": true
+    },
+    {
+      "check": "development:photo_prompt:n_errors",
+      "passed": true
+    },
+    {
+      "check": "development:photo_prompt:logit versus softmax argmax agrees",
+      "passed": true
+    },
+    {
+      "check": "development:prompt_ensemble:n_examples",
+      "passed": true
+    },
+    {
+      "check": "development:prompt_ensemble:accuracy",
+      "passed": true
+    },
+    {
+      "check": "development:prompt_ensemble:macro_f1",
+      "passed": true
+    },
+    {
+      "check": "development:prompt_ensemble:per_class_recall",
+      "passed": true
+    },
+    {
+      "check": "development:prompt_ensemble:confusion_matrix",
+      "passed": true
+    },
+    {
+      "check": "development:prompt_ensemble:n_errors",
+      "passed": true
+    },
+    {
+      "check": "development:prompt_ensemble:logit versus softmax argmax agrees",
+      "passed": true
+    },
+    {
+      "check": "threshold: finite logits and expected shape",
+      "passed": true
+    },
+    {
+      "check": "threshold: balanced expected class support",
+      "passed": true
+    },
+    {
+      "check": "threshold: unique row IDs",
+      "passed": true
+    },
+    {
+      "check": "threshold: unique decoded pixel hashes",
+      "passed": true
+    },
+    {
+      "check": "threshold:label_only:n_examples",
+      "passed": true
+    },
+    {
+      "check": "threshold:label_only:accuracy",
+      "passed": true
+    },
+    {
+      "check": "threshold:label_only:macro_f1",
+      "passed": true
+    },
+    {
+      "check": "threshold:label_only:per_class_recall",
+      "passed": true
+    },
+    {
+      "check": "threshold:label_only:confusion_matrix",
+      "passed": true
+    },
+    {
+      "check": "threshold:label_only:n_errors",
+      "passed": true
+    },
+    {
+      "check": "threshold:label_only:logit versus softmax argmax agrees",
+      "passed": true
+    },
+    {
+      "check": "threshold:photo_prompt:n_examples",
+      "passed": true
+    },
+    {
+      "check": "threshold:photo_prompt:accuracy",
+      "passed": true
+    },
+    {
+      "check": "threshold:photo_prompt:macro_f1",
+      "passed": true
+    },
+    {
+      "check": "threshold:photo_prompt:per_class_recall",
+      "passed": true
+    },
+    {
+      "check": "threshold:photo_prompt:confusion_matrix",
+      "passed": true
+    },
+    {
+      "check": "threshold:photo_prompt:n_errors",
+      "passed": true
+    },
+    {
+      "check": "threshold:photo_prompt:logit versus softmax argmax agrees",
+      "passed": true
+    },
+    {
+      "check": "threshold:prompt_ensemble:n_examples",
+      "passed": true
+    },
+    {
+      "check": "threshold:prompt_ensemble:accuracy",
+      "passed": true
+    },
+    {
+      "check": "threshold:prompt_ensemble:macro_f1",
+      "passed": true
+    },
+    {
+      "check": "threshold:prompt_ensemble:per_class_recall",
+      "passed": true
+    },
+    {
+      "check": "threshold:prompt_ensemble:confusion_matrix",
+      "passed": true
+    },
+    {
+      "check": "threshold:prompt_ensemble:n_errors",
+      "passed": true
+    },
+    {
+      "check": "threshold:prompt_ensemble:logit versus softmax argmax agrees",
+      "passed": true
+    },
+    {
+      "check": "test: finite logits and expected shape",
+      "passed": true
+    },
+    {
+      "check": "test: balanced expected class support",
+      "passed": true
+    },
+    {
+      "check": "test: unique row IDs",
+      "passed": true
+    },
+    {
+      "check": "test: unique decoded pixel hashes",
+      "passed": true
+    },
+    {
+      "check": "test:label_only:n_examples",
+      "passed": true
+    },
+    {
+      "check": "test:label_only:accuracy",
+      "passed": true
+    },
+    {
+      "check": "test:label_only:macro_f1",
+      "passed": true
+    },
+    {
+      "check": "test:label_only:per_class_recall",
+      "passed": true
+    },
+    {
+      "check": "test:label_only:confusion_matrix",
+      "passed": true
+    },
+    {
+      "check": "test:label_only:n_errors",
+      "passed": true
+    },
+    {
+      "check": "test:label_only:logit versus softmax argmax agrees",
+      "passed": true
+    },
+    {
+      "check": "test:photo_prompt:n_examples",
+      "passed": true
+    },
+    {
+      "check": "test:photo_prompt:accuracy",
+      "passed": true
+    },
+    {
+      "check": "test:photo_prompt:macro_f1",
+      "passed": true
+    },
+    {
+      "check": "test:photo_prompt:per_class_recall",
+      "passed": true
+    },
+    {
+      "check": "test:photo_prompt:confusion_matrix",
+      "passed": true
+    },
+    {
+      "check": "test:photo_prompt:n_errors",
+      "passed": true
+    },
+    {
+      "check": "test:photo_prompt:logit versus softmax argmax agrees",
+      "passed": true
+    },
+    {
+      "check": "test:prompt_ensemble:n_examples",
+      "passed": true
+    },
+    {
+      "check": "test:prompt_ensemble:accuracy",
+      "passed": true
+    },
+    {
+      "check": "test:prompt_ensemble:macro_f1",
+      "passed": true
+    },
+    {
+      "check": "test:prompt_ensemble:per_class_recall",
+      "passed": true
+    },
+    {
+      "check": "test:prompt_ensemble:confusion_matrix",
+      "passed": true
+    },
+    {
+      "check": "test:prompt_ensemble:n_errors",
+      "passed": true
+    },
+    {
+      "check": "test:prompt_ensemble:logit versus softmax argmax agrees",
+      "passed": true
+    },
+    {
+      "check": "development versus threshold train IDs disjoint",
+      "passed": true
+    },
+    {
+      "check": "development versus threshold decoded pixel hashes disjoint",
+      "passed": true
+    },
+    {
+      "check": "development versus test decoded pixel hashes disjoint",
+      "passed": true
+    },
+    {
+      "check": "threshold versus test decoded pixel hashes disjoint",
+      "passed": true
+    },
+    {
+      "check": "method selected solely from development accuracy with stable tie priority",
+      "passed": true
+    },
+    {
+      "check": "threshold 0.5 computed from selected calibration-only scores",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5 uses saved protocol threshold",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5:threshold",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5:n_examples",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5:accepted_count",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5:referred_count",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5:coverage",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5:selective_accuracy",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5:selective_error_rate",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5:accepted_errors",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5:referred_errors",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5:caught_error_fraction",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5:correctly_accepted_fraction_total",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5:per_class_coverage",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5:per_class_accepted_accuracy",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5:per-class accepted totals reconcile",
+      "passed": true
+    },
+    {
+      "check": "selective 0.5:accepted/referred partition reconciles",
+      "passed": true
+    },
+    {
+      "check": "threshold 0.75 computed from selected calibration-only scores",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75 uses saved protocol threshold",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75:threshold",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75:n_examples",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75:accepted_count",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75:referred_count",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75:coverage",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75:selective_accuracy",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75:selective_error_rate",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75:accepted_errors",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75:referred_errors",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75:caught_error_fraction",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75:correctly_accepted_fraction_total",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75:per_class_coverage",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75:per_class_accepted_accuracy",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75:per-class accepted totals reconcile",
+      "passed": true
+    },
+    {
+      "check": "selective 0.75:accepted/referred partition reconciles",
+      "passed": true
+    },
+    {
+      "check": "threshold 0.9 computed from selected calibration-only scores",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9 uses saved protocol threshold",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9:threshold",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9:n_examples",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9:accepted_count",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9:referred_count",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9:coverage",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9:selective_accuracy",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9:selective_error_rate",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9:accepted_errors",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9:referred_errors",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9:caught_error_fraction",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9:correctly_accepted_fraction_total",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9:per_class_coverage",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9:per_class_accepted_accuracy",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9:per-class accepted totals reconcile",
+      "passed": true
+    },
+    {
+      "check": "selective 0.9:accepted/referred partition reconciles",
+      "passed": true
+    },
+    {
+      "check": "paired photo_prompt_minus_label_only:mean_delta_b_minus_a",
+      "passed": true
+    },
+    {
+      "check": "paired photo_prompt_minus_label_only:ci95",
+      "passed": true
+    },
+    {
+      "check": "paired photo_prompt_minus_label_only:b_better_count",
+      "passed": true
+    },
+    {
+      "check": "paired photo_prompt_minus_label_only:a_better_count",
+      "passed": true
+    },
+    {
+      "check": "paired photo_prompt_minus_label_only:tied_count",
+      "passed": true
+    },
+    {
+      "check": "paired prompt_ensemble_minus_label_only:mean_delta_b_minus_a",
+      "passed": true
+    },
+    {
+      "check": "paired prompt_ensemble_minus_label_only:ci95",
+      "passed": true
+    },
+    {
+      "check": "paired prompt_ensemble_minus_label_only:b_better_count",
+      "passed": true
+    },
+    {
+      "check": "paired prompt_ensemble_minus_label_only:a_better_count",
+      "passed": true
+    },
+    {
+      "check": "paired prompt_ensemble_minus_label_only:tied_count",
+      "passed": true
+    },
+    {
+      "check": "paired prompt_ensemble_minus_photo_prompt:mean_delta_b_minus_a",
+      "passed": true
+    },
+    {
+      "check": "paired prompt_ensemble_minus_photo_prompt:ci95",
+      "passed": true
+    },
+    {
+      "check": "paired prompt_ensemble_minus_photo_prompt:b_better_count",
+      "passed": true
+    },
+    {
+      "check": "paired prompt_ensemble_minus_photo_prompt:a_better_count",
+      "passed": true
+    },
+    {
+      "check": "paired prompt_ensemble_minus_photo_prompt:tied_count",
+      "passed": true
+    },
+    {
+      "check": "notebook no recorded errors",
+      "passed": true
+    },
+    {
+      "check": "notebook code execution counts sequential 1..13",
+      "passed": true
+    },
+    {
+      "check": "notebook source locks and writes protocol before test inference",
+      "passed": true
+    },
+    {
+      "check": "notebook source checks protocol hash before test inference",
+      "passed": true
+    }
+  ],
+  "check_count": 150,
+  "failed_checks": [],
+  "recomputed_metrics": {
+    "development": {
+      "label_only": {
+        "n_examples": 1000,
+        "accuracy": 0.885,
+        "macro_f1": 0.8846645724872649,
+        "per_class_recall": [
+          0.89,
+          0.88,
+          0.9,
+          0.83,
+          0.83,
+          0.85,
+          0.75,
+          0.99,
+          0.98,
+          0.95
+        ],
+        "confusion_matrix": [
+          [
+            89,
+            1,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            88,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            12
+          ],
+          [
+            0,
+            0,
+            90,
+            0,
+            4,
+            2,
+            0,
+            3,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            83,
+            1,
+            8,
+            1,
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            83,
+            0,
+            0,
+            15,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            4,
+            2,
+            85,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            2,
+            1,
+            8,
+            3,
+            3,
+            1,
+            75,
+            4,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            99,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            98,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            95
+          ]
+        ],
+        "n_errors": 115
+      },
+      "photo_prompt": {
+        "n_examples": 1000,
+        "accuracy": 0.891,
+        "macro_f1": 0.8897538048246771,
+        "per_class_recall": [
+          0.94,
+          0.96,
+          0.9,
+          0.87,
+          0.77,
+          0.89,
+          0.69,
+          0.98,
+          0.97,
+          0.94
+        ],
+        "confusion_matrix": [
+          [
+            94,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            96,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            90,
+            0,
+            4,
+            2,
+            0,
+            3,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            87,
+            0,
+            11,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            2,
+            0,
+            77,
+            2,
+            1,
+            17,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            4,
+            2,
+            89,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            8,
+            8,
+            1,
+            7,
+            69,
+            2,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            98,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            97,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            94
+          ]
+        ],
+        "n_errors": 109
+      },
+      "prompt_ensemble": {
+        "n_examples": 1000,
+        "accuracy": 0.89,
+        "macro_f1": 0.88899907655114,
+        "per_class_recall": [
+          0.92,
+          0.97,
+          0.88,
+          0.88,
+          0.79,
+          0.88,
+          0.71,
+          0.97,
+          0.98,
+          0.92
+        ],
+        "confusion_matrix": [
+          [
+            92,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            97,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            88,
+            1,
+            6,
+            1,
+            0,
+            3,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            88,
+            1,
+            8,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            79,
+            2,
+            1,
+            16,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            5,
+            2,
+            88,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            5,
+            8,
+            3,
+            3,
+            71,
+            4,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            97,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            98,
+            0
+          ],
+          [
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            92
+          ]
+        ],
+        "n_errors": 110
+      }
+    },
+    "threshold": {
+      "label_only": {
+        "n_examples": 1000,
+        "accuracy": 0.885,
+        "macro_f1": 0.8855177482535435,
+        "per_class_recall": [
+          0.85,
+          0.9,
+          0.91,
+          0.82,
+          0.81,
+          0.86,
+          0.82,
+          0.97,
+          0.97,
+          0.94
+        ],
+        "confusion_matrix": [
+          [
+            85,
+            1,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            90,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10
+          ],
+          [
+            0,
+            0,
+            91,
+            1,
+            4,
+            1,
+            1,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            8,
+            82,
+            1,
+            7,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            3,
+            1,
+            81,
+            2,
+            0,
+            12,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            5,
+            3,
+            1,
+            86,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            4,
+            3,
+            3,
+            4,
+            82,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            97,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            97,
+            1
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            94
+          ]
+        ],
+        "n_errors": 115
+      },
+      "photo_prompt": {
+        "n_examples": 1000,
+        "accuracy": 0.892,
+        "macro_f1": 0.8920144629538302,
+        "per_class_recall": [
+          0.88,
+          0.92,
+          0.92,
+          0.89,
+          0.74,
+          0.91,
+          0.78,
+          0.94,
+          0.99,
+          0.95
+        ],
+        "confusion_matrix": [
+          [
+            88,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            92,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            92,
+            2,
+            2,
+            2,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            89,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            2,
+            74,
+            6,
+            0,
+            15,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            4,
+            1,
+            91,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            5,
+            5,
+            2,
+            8,
+            78,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            94,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            99,
+            1
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            95
+          ]
+        ],
+        "n_errors": 108
+      },
+      "prompt_ensemble": {
+        "n_examples": 1000,
+        "accuracy": 0.893,
+        "macro_f1": 0.8927028875612848,
+        "per_class_recall": [
+          0.85,
+          0.94,
+          0.91,
+          0.89,
+          0.8,
+          0.91,
+          0.76,
+          0.95,
+          0.98,
+          0.94
+        ],
+        "confusion_matrix": [
+          [
+            85,
+            1,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
+            1
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            91,
+            1,
+            3,
+            2,
+            1,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            89,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            3,
+            80,
+            3,
+            0,
+            13,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            4,
+            1,
+            91,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            3,
+            5,
+            3,
+            8,
+            76,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            95,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            98,
+            1
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            94
+          ]
+        ],
+        "n_errors": 107
+      }
+    },
+    "test": {
+      "label_only": {
+        "n_examples": 10000,
+        "accuracy": 0.8735,
+        "macro_f1": 0.8733876310672827,
+        "per_class_recall": [
+          0.811,
+          0.897,
+          0.916,
+          0.792,
+          0.821,
+          0.852,
+          0.77,
+          0.971,
+          0.964,
+          0.941
+        ],
+        "confusion_matrix": [
+          [
+            811,
+            7,
+            119,
+            0,
+            0,
+            0,
+            2,
+            0,
+            45,
+            16
+          ],
+          [
+            2,
+            897,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            5,
+            95
+          ],
+          [
+            5,
+            1,
+            916,
+            8,
+            25,
+            9,
+            3,
+            32,
+            1,
+            0
+          ],
+          [
+            8,
+            5,
+            44,
+            792,
+            16,
+            79,
+            15,
+            22,
+            18,
+            1
+          ],
+          [
+            1,
+            1,
+            28,
+            6,
+            821,
+            5,
+            7,
+            126,
+            5,
+            0
+          ],
+          [
+            7,
+            1,
+            34,
+            51,
+            17,
+            852,
+            6,
+            27,
+            5,
+            0
+          ],
+          [
+            6,
+            4,
+            103,
+            34,
+            39,
+            9,
+            770,
+            20,
+            15,
+            0
+          ],
+          [
+            5,
+            0,
+            6,
+            2,
+            6,
+            5,
+            0,
+            971,
+            5,
+            0
+          ],
+          [
+            25,
+            6,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            964,
+            4
+          ],
+          [
+            2,
+            42,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            13,
+            941
+          ]
+        ],
+        "n_errors": 1265
+      },
+      "photo_prompt": {
+        "n_examples": 10000,
+        "accuracy": 0.8823,
+        "macro_f1": 0.8816792069849676,
+        "per_class_recall": [
+          0.887,
+          0.93,
+          0.897,
+          0.857,
+          0.769,
+          0.891,
+          0.716,
+          0.971,
+          0.961,
+          0.944
+        ],
+        "confusion_matrix": [
+          [
+            887,
+            7,
+            62,
+            0,
+            0,
+            1,
+            0,
+            0,
+            32,
+            11
+          ],
+          [
+            3,
+            930,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            3,
+            63
+          ],
+          [
+            10,
+            1,
+            897,
+            19,
+            22,
+            16,
+            3,
+            31,
+            1,
+            0
+          ],
+          [
+            2,
+            3,
+            24,
+            857,
+            7,
+            83,
+            6,
+            10,
+            6,
+            2
+          ],
+          [
+            2,
+            1,
+            36,
+            17,
+            769,
+            31,
+            4,
+            137,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            22,
+            62,
+            7,
+            891,
+            1,
+            13,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            105,
+            84,
+            14,
+            56,
+            716,
+            8,
+            13,
+            0
+          ],
+          [
+            2,
+            0,
+            5,
+            4,
+            4,
+            10,
+            0,
+            971,
+            3,
+            1
+          ],
+          [
+            22,
+            9,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0,
+            961,
+            4
+          ],
+          [
+            0,
+            42,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            944
+          ]
+        ],
+        "n_errors": 1177
+      },
+      "prompt_ensemble": {
+        "n_examples": 10000,
+        "accuracy": 0.8854,
+        "macro_f1": 0.884661630718418,
+        "per_class_recall": [
+          0.872,
+          0.943,
+          0.876,
+          0.854,
+          0.804,
+          0.885,
+          0.737,
+          0.971,
+          0.974,
+          0.938
+        ],
+        "confusion_matrix": [
+          [
+            872,
+            9,
+            43,
+            0,
+            0,
+            1,
+            0,
+            0,
+            67,
+            8
+          ],
+          [
+            2,
+            943,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            52
+          ],
+          [
+            10,
+            4,
+            876,
+            19,
+            33,
+            14,
+            4,
+            35,
+            5,
+            0
+          ],
+          [
+            1,
+            8,
+            18,
+            854,
+            12,
+            78,
+            6,
+            11,
+            12,
+            0
+          ],
+          [
+            1,
+            3,
+            20,
+            10,
+            804,
+            20,
+            5,
+            131,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            14,
+            67,
+            11,
+            885,
+            1,
+            15,
+            6,
+            0
+          ],
+          [
+            1,
+            6,
+            69,
+            76,
+            29,
+            45,
+            737,
+            12,
+            25,
+            0
+          ],
+          [
+            1,
+            0,
+            2,
+            5,
+            6,
+            5,
+            0,
+            971,
+            10,
+            0
+          ],
+          [
+            13,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            974,
+            4
+          ],
+          [
+            0,
+            46,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            16,
+            938
+          ]
+        ],
+        "n_errors": 1146
+      }
+    }
+  },
+  "selection": {
+    "development_selected_method": "photo_prompt",
+    "development_accuracies": {
+      "label_only": 0.885,
+      "photo_prompt": 0.891,
+      "prompt_ensemble": 0.89
+    },
+    "best_test_method_descriptive_only": "prompt_ensemble",
+    "selected_method_retained_for_all_selective_results": true,
+    "development_selection_margin_examples": 1
+  },
+  "thresholds": {
+    "0.5": {
+      "threshold": 0.9353257567812249,
+      "k": 500,
+      "calibration_n": 1000,
+      "actual_calibration_coverage": 0.5,
+      "test_coverage": 0.4912
+    },
+    "0.75": {
+      "threshold": 0.7482685294311393,
+      "k": 750,
+      "calibration_n": 1000,
+      "actual_calibration_coverage": 0.75,
+      "test_coverage": 0.7518
+    },
+    "0.9": {
+      "threshold": 0.5136721436565947,
+      "k": 900,
+      "calibration_n": 1000,
+      "actual_calibration_coverage": 0.9,
+      "test_coverage": 0.8888
+    }
+  },
+  "selective_results": {
+    "0.5": {
+      "threshold": 0.9353257567812249,
+      "n_examples": 10000,
+      "accepted_count": 4912,
+      "referred_count": 5088,
+      "coverage": 0.4912,
+      "selective_accuracy": 0.9924674267100977,
+      "selective_error_rate": 0.00753257328990228,
+      "accepted_errors": 37,
+      "referred_errors": 1140,
+      "caught_error_fraction": 0.9685641461342396,
+      "correctly_accepted_fraction_total": 0.4875,
+      "per_class_coverage": [
+        0.449,
+        0.469,
+        0.596,
+        0.364,
+        0.393,
+        0.479,
+        0.204,
+        0.832,
+        0.697,
+        0.429
+      ],
+      "per_class_accepted_accuracy": [
+        0.9977728285077951,
+        0.997867803837953,
+        0.9966442953020134,
+        0.989010989010989,
+        0.9592875318066157,
+        0.9874739039665971,
+        0.9803921568627451,
+        1.0,
+        0.9956958393113343,
+        1.0
+      ],
+      "accepted_correct": 4875,
+      "referred_correct": 3948,
+      "per_class_counts": [
+        {
+          "class": "airplane",
+          "n_examples": 1000,
+          "accepted_count": 449,
+          "accepted_correct": 448,
+          "accepted_errors": 1,
+          "referred_count": 551,
+          "coverage": 0.449,
+          "accepted_accuracy": 0.9977728285077951
+        },
+        {
+          "class": "automobile",
+          "n_examples": 1000,
+          "accepted_count": 469,
+          "accepted_correct": 468,
+          "accepted_errors": 1,
+          "referred_count": 531,
+          "coverage": 0.469,
+          "accepted_accuracy": 0.997867803837953
+        },
+        {
+          "class": "bird",
+          "n_examples": 1000,
+          "accepted_count": 596,
+          "accepted_correct": 594,
+          "accepted_errors": 2,
+          "referred_count": 404,
+          "coverage": 0.596,
+          "accepted_accuracy": 0.9966442953020134
+        },
+        {
+          "class": "cat",
+          "n_examples": 1000,
+          "accepted_count": 364,
+          "accepted_correct": 360,
+          "accepted_errors": 4,
+          "referred_count": 636,
+          "coverage": 0.364,
+          "accepted_accuracy": 0.989010989010989
+        },
+        {
+          "class": "deer",
+          "n_examples": 1000,
+          "accepted_count": 393,
+          "accepted_correct": 377,
+          "accepted_errors": 16,
+          "referred_count": 607,
+          "coverage": 0.393,
+          "accepted_accuracy": 0.9592875318066157
+        },
+        {
+          "class": "dog",
+          "n_examples": 1000,
+          "accepted_count": 479,
+          "accepted_correct": 473,
+          "accepted_errors": 6,
+          "referred_count": 521,
+          "coverage": 0.479,
+          "accepted_accuracy": 0.9874739039665971
+        },
+        {
+          "class": "frog",
+          "n_examples": 1000,
+          "accepted_count": 204,
+          "accepted_correct": 200,
+          "accepted_errors": 4,
+          "referred_count": 796,
+          "coverage": 0.204,
+          "accepted_accuracy": 0.9803921568627451
+        },
+        {
+          "class": "horse",
+          "n_examples": 1000,
+          "accepted_count": 832,
+          "accepted_correct": 832,
+          "accepted_errors": 0,
+          "referred_count": 168,
+          "coverage": 0.832,
+          "accepted_accuracy": 1.0
+        },
+        {
+          "class": "ship",
+          "n_examples": 1000,
+          "accepted_count": 697,
+          "accepted_correct": 694,
+          "accepted_errors": 3,
+          "referred_count": 303,
+          "coverage": 0.697,
+          "accepted_accuracy": 0.9956958393113343
+        },
+        {
+          "class": "truck",
+          "n_examples": 1000,
+          "accepted_count": 429,
+          "accepted_correct": 429,
+          "accepted_errors": 0,
+          "referred_count": 571,
+          "coverage": 0.429,
+          "accepted_accuracy": 1.0
+        }
+      ]
+    },
+    "0.75": {
+      "threshold": 0.7482685294311393,
+      "n_examples": 10000,
+      "accepted_count": 7518,
+      "referred_count": 2482,
+      "coverage": 0.7518,
+      "selective_accuracy": 0.9710029263101889,
+      "selective_error_rate": 0.02899707368981112,
+      "accepted_errors": 218,
+      "referred_errors": 959,
+      "caught_error_fraction": 0.8147833474936279,
+      "correctly_accepted_fraction_total": 0.73,
+      "per_class_coverage": [
+        0.784,
+        0.829,
+        0.769,
+        0.687,
+        0.663,
+        0.768,
+        0.435,
+        0.918,
+        0.886,
+        0.779
+      ],
+      "per_class_accepted_accuracy": [
+        0.9668367346938775,
+        0.9806996381182147,
+        0.9739921976592978,
+        0.9679767103347889,
+        0.8989441930618401,
+        0.9622395833333334,
+        0.9402298850574713,
+        0.9978213507625272,
+        0.9909706546275395,
+        0.9974326059050064
+      ],
+      "accepted_correct": 7300,
+      "referred_correct": 1523,
+      "per_class_counts": [
+        {
+          "class": "airplane",
+          "n_examples": 1000,
+          "accepted_count": 784,
+          "accepted_correct": 758,
+          "accepted_errors": 26,
+          "referred_count": 216,
+          "coverage": 0.784,
+          "accepted_accuracy": 0.9668367346938775
+        },
+        {
+          "class": "automobile",
+          "n_examples": 1000,
+          "accepted_count": 829,
+          "accepted_correct": 813,
+          "accepted_errors": 16,
+          "referred_count": 171,
+          "coverage": 0.829,
+          "accepted_accuracy": 0.9806996381182147
+        },
+        {
+          "class": "bird",
+          "n_examples": 1000,
+          "accepted_count": 769,
+          "accepted_correct": 749,
+          "accepted_errors": 20,
+          "referred_count": 231,
+          "coverage": 0.769,
+          "accepted_accuracy": 0.9739921976592978
+        },
+        {
+          "class": "cat",
+          "n_examples": 1000,
+          "accepted_count": 687,
+          "accepted_correct": 665,
+          "accepted_errors": 22,
+          "referred_count": 313,
+          "coverage": 0.687,
+          "accepted_accuracy": 0.9679767103347889
+        },
+        {
+          "class": "deer",
+          "n_examples": 1000,
+          "accepted_count": 663,
+          "accepted_correct": 596,
+          "accepted_errors": 67,
+          "referred_count": 337,
+          "coverage": 0.663,
+          "accepted_accuracy": 0.8989441930618401
+        },
+        {
+          "class": "dog",
+          "n_examples": 1000,
+          "accepted_count": 768,
+          "accepted_correct": 739,
+          "accepted_errors": 29,
+          "referred_count": 232,
+          "coverage": 0.768,
+          "accepted_accuracy": 0.9622395833333334
+        },
+        {
+          "class": "frog",
+          "n_examples": 1000,
+          "accepted_count": 435,
+          "accepted_correct": 409,
+          "accepted_errors": 26,
+          "referred_count": 565,
+          "coverage": 0.435,
+          "accepted_accuracy": 0.9402298850574713
+        },
+        {
+          "class": "horse",
+          "n_examples": 1000,
+          "accepted_count": 918,
+          "accepted_correct": 916,
+          "accepted_errors": 2,
+          "referred_count": 82,
+          "coverage": 0.918,
+          "accepted_accuracy": 0.9978213507625272
+        },
+        {
+          "class": "ship",
+          "n_examples": 1000,
+          "accepted_count": 886,
+          "accepted_correct": 878,
+          "accepted_errors": 8,
+          "referred_count": 114,
+          "coverage": 0.886,
+          "accepted_accuracy": 0.9909706546275395
+        },
+        {
+          "class": "truck",
+          "n_examples": 1000,
+          "accepted_count": 779,
+          "accepted_correct": 777,
+          "accepted_errors": 2,
+          "referred_count": 221,
+          "coverage": 0.779,
+          "accepted_accuracy": 0.9974326059050064
+        }
+      ]
+    },
+    "0.9": {
+      "threshold": 0.5136721436565947,
+      "n_examples": 10000,
+      "accepted_count": 8888,
+      "referred_count": 1112,
+      "coverage": 0.8888,
+      "selective_accuracy": 0.934068406840684,
+      "selective_error_rate": 0.06593159315931593,
+      "accepted_errors": 586,
+      "referred_errors": 591,
+      "caught_error_fraction": 0.5021240441801189,
+      "correctly_accepted_fraction_total": 0.8302,
+      "per_class_coverage": [
+        0.9,
+        0.98,
+        0.869,
+        0.848,
+        0.83,
+        0.928,
+        0.661,
+        0.959,
+        0.969,
+        0.944
+      ],
+      "per_class_accepted_accuracy": [
+        0.9388888888888889,
+        0.939795918367347,
+        0.9493670886075949,
+        0.9257075471698113,
+        0.8421686746987952,
+        0.9116379310344828,
+        0.8714069591527988,
+        0.9854014598540146,
+        0.9742002063983488,
+        0.9703389830508474
+      ],
+      "accepted_correct": 8302,
+      "referred_correct": 521,
+      "per_class_counts": [
+        {
+          "class": "airplane",
+          "n_examples": 1000,
+          "accepted_count": 900,
+          "accepted_correct": 845,
+          "accepted_errors": 55,
+          "referred_count": 100,
+          "coverage": 0.9,
+          "accepted_accuracy": 0.9388888888888889
+        },
+        {
+          "class": "automobile",
+          "n_examples": 1000,
+          "accepted_count": 980,
+          "accepted_correct": 921,
+          "accepted_errors": 59,
+          "referred_count": 20,
+          "coverage": 0.98,
+          "accepted_accuracy": 0.939795918367347
+        },
+        {
+          "class": "bird",
+          "n_examples": 1000,
+          "accepted_count": 869,
+          "accepted_correct": 825,
+          "accepted_errors": 44,
+          "referred_count": 131,
+          "coverage": 0.869,
+          "accepted_accuracy": 0.9493670886075949
+        },
+        {
+          "class": "cat",
+          "n_examples": 1000,
+          "accepted_count": 848,
+          "accepted_correct": 785,
+          "accepted_errors": 63,
+          "referred_count": 152,
+          "coverage": 0.848,
+          "accepted_accuracy": 0.9257075471698113
+        },
+        {
+          "class": "deer",
+          "n_examples": 1000,
+          "accepted_count": 830,
+          "accepted_correct": 699,
+          "accepted_errors": 131,
+          "referred_count": 170,
+          "coverage": 0.83,
+          "accepted_accuracy": 0.8421686746987952
+        },
+        {
+          "class": "dog",
+          "n_examples": 1000,
+          "accepted_count": 928,
+          "accepted_correct": 846,
+          "accepted_errors": 82,
+          "referred_count": 72,
+          "coverage": 0.928,
+          "accepted_accuracy": 0.9116379310344828
+        },
+        {
+          "class": "frog",
+          "n_examples": 1000,
+          "accepted_count": 661,
+          "accepted_correct": 576,
+          "accepted_errors": 85,
+          "referred_count": 339,
+          "coverage": 0.661,
+          "accepted_accuracy": 0.8714069591527988
+        },
+        {
+          "class": "horse",
+          "n_examples": 1000,
+          "accepted_count": 959,
+          "accepted_correct": 945,
+          "accepted_errors": 14,
+          "referred_count": 41,
+          "coverage": 0.959,
+          "accepted_accuracy": 0.9854014598540146
+        },
+        {
+          "class": "ship",
+          "n_examples": 1000,
+          "accepted_count": 969,
+          "accepted_correct": 944,
+          "accepted_errors": 25,
+          "referred_count": 31,
+          "coverage": 0.969,
+          "accepted_accuracy": 0.9742002063983488
+        },
+        {
+          "class": "truck",
+          "n_examples": 1000,
+          "accepted_count": 944,
+          "accepted_correct": 916,
+          "accepted_errors": 28,
+          "referred_count": 56,
+          "coverage": 0.944,
+          "accepted_accuracy": 0.9703389830508474
+        }
+      ]
+    }
+  },
+  "paired_results": {
+    "photo_prompt_minus_label_only": {
+      "mean_delta_b_minus_a": 0.0088,
+      "ci95": [
+        0.0049,
+        0.0131
+      ],
+      "b_better_count": 272,
+      "a_better_count": 184,
+      "tied_count": 9544
+    },
+    "prompt_ensemble_minus_label_only": {
+      "mean_delta_b_minus_a": 0.0119,
+      "ci95": [
+        0.008,
+        0.0162
+      ],
+      "b_better_count": 284,
+      "a_better_count": 165,
+      "tied_count": 9551
+    },
+    "prompt_ensemble_minus_photo_prompt": {
+      "mean_delta_b_minus_a": 0.0031,
+      "ci95": [
+        0.0004975000000000001,
+        0.0059
+      ],
+      "b_better_count": 116,
+      "a_better_count": 85,
+      "tied_count": 9799
+    }
+  },
+  "notebook": {
+    "path": "upload/Multimodal_Classification_Evaluation(1).ipynb",
+    "sha256": "2ad93927347105ec1ae6983de60796cd456f27d0e9712fa741bb4783d96ed5bd",
+    "code_cells": 13,
+    "execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "recorded_errors": [],
+    "protocol_lock_cell_index": [
+      18
+    ],
+    "test_inference_cell_index": [
+      20
+    ]
+  },
+  "plot_review": {
+    "readable": true,
+    "axis_labels_correct": true,
+    "values_consistent_with_saved_metrics": true,
+    "presentation_note": "Specify in surrounding caption that the accuracy-coverage curve uses development-selected photo_prompt. Connecting lines summarize three operating points and are not measured continuous trade-off estimates."
+  },
+  "material_interpretation_notes": [
+    "Photo prompt wins development by one image over ensemble (89.1% versus 89.0%); ensemble has highest test accuracy (88.54%). Keep photo_prompt as the preselected operating method.",
+    "At the primary threshold 7,518/10,000 images are accepted: 7,300 correct and 218 incorrect; 2,482 are referred including 959 errors and 1,523 correct predictions. The 97.10% accepted accuracy is not overall accuracy.",
+    "Class trade-offs differ: frog accepted coverage is 43.5%, horse 91.8%; deer accepted accuracy is 89.89% despite 97.10% aggregate accepted accuracy.",
+    "Calibration targets describe coverage on 1,000 held-out calibration images, not guaranteed coverage, class-specific accuracy, or correctness probability on new inputs.",
+    "Bootstrap intervals are descriptive conditional paired-image resamples, without multiple-comparison correction; no business cost, human reviewer outcome, or deployment gain was measured."
+  ],
+  "limitations": [
+    "Read-only checks recompute reported quantities from saved logits and labels; they do not establish authenticity of model inference, datasets, or chronology.",
+    "Notebook source order, recorded execution counters, and protocol hash assertions support the declared workflow but cannot prove historical execution chronology.",
+    "No model inference, dataset download, or independently decoded source-image label verification was performed in this audit.",
+    "Bootstrap CIs were reproduced with the same stated multinomial sampling algorithm, independently implemented here; they are not a separate statistical validation of uncertainty under domain shift.",
+    "Exact pixel-hash disjointness does not establish absence of near-duplicates or overlap with unknown CLIP pretraining data."
+  ]
+}

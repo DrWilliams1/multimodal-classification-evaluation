@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "scope": "Standalone notebook code cells, excluding dependency install, executed on CPU using 60 official training images only; not benchmark results.",
+  "executed_code_cells": 12,
+  "total_code_cells": 13,
+  "official_test_model_inference_run": false,
+  "exact_pixel_audit": {
+    "dataset_id": "uoft-cs/cifar10",
+    "revision": "0b2714987fa478483af9968de7c934580d0bb9a2",
+    "source_files": {
+      "train": {
+        "path_in_repository": "plain_text/train-00000-of-00001.parquet",
+        "sha256": "8428b53a88a11ac374111006708df51469e315a22ac6d66470afd9c78d2ae883",
+        "n_examples": 50000
+      },
+      "test": {
+        "path_in_repository": "plain_text/test-00000-of-00001.parquet",
+        "sha256": "841389e6f2d64f28bf17310e430aebac20ec3ba611a3c5e231dc93c645ce84de",
+        "n_examples": 10000
+      }
+    },
+    "hash_definition": "SHA256 of decoded 32x32x3 RGB uint8 bytes",
+    "train_rows_sharing_exact_pixels_with_test_excluded": 0,
+    "additional_duplicate_train_rows_excluded": 0,
+    "eligible_training_rows": 50000,
+    "duplicate_test_rows_beyond_first": 0,
+    "test_policy": "Keep every official test row; report exact duplicates; no near-duplicate audit.",
+    "pretraining_exposure": "Unknown; zero-shot here means no task-specific weight fitting."
+  },
+  "offline_verification": {
+    "status": "passed",
+    "smoke_only": true,
+    "hashed_files": 18,
+    "examples_by_split": {
+      "development": 20,
+      "threshold": 20,
+      "test": 20
+    },
+    "prediction_rows_checked": 180,
+    "selected_method": "label_only",
+    "model_inference_repeated": false,
+    "scope": "Saved-record consistency and file integrity; source authenticity and execution chronology not independently verified."
+  },
+  "factorized_vs_native_clip_max_absolute_logit_difference": 6.5471888675006085e-06,
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "device": "cpu",
+    "gpu": null,
+    "versions": {
+      "torch": "2.6.0+cpu",
+      "transformers": "4.57.6",
+      "huggingface-hub": "0.36.2",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "pyarrow": "26.0.1",
+      "Pillow": "13.0.0",
+      "matplotlib": "3.10.8"
+    },
+    "torch_threads": 4,
+    "precision": "float32 encoder, float64 score/metric arithmetic"
+  }
+}

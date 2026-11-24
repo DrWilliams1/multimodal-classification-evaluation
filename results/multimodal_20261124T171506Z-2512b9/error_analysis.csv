@@ -1,0 +1,11 @@
+split,row_id,method,actual_label,predicted_label,max_softmax_score,correct,my_observation
+development,35092,photo_prompt,4,7,0.9382167650367698,False,
+development,31566,photo_prompt,5,3,0.933507054283862,False,
+development,46720,photo_prompt,4,7,0.9291264076618515,False,
+development,28279,photo_prompt,4,7,0.9210144383302126,False,
+development,7360,photo_prompt,5,3,0.9096946082094416,False,
+development,9311,photo_prompt,0,2,0.900032566445528,False,
+development,39647,photo_prompt,5,4,0.8830421924737429,False,
+development,45583,photo_prompt,6,3,0.8671812796405495,False,
+development,35598,photo_prompt,4,7,0.8542848508575436,False,
+development,45661,photo_prompt,6,8,0.841806162041677,False,

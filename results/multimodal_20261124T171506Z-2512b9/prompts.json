@@ -1,0 +1,138 @@
+{
+  "label_only": [
+    [
+      "airplane"
+    ],
+    [
+      "automobile"
+    ],
+    [
+      "bird"
+    ],
+    [
+      "cat"
+    ],
+    [
+      "deer"
+    ],
+    [
+      "dog"
+    ],
+    [
+      "frog"
+    ],
+    [
+      "horse"
+    ],
+    [
+      "ship"
+    ],
+    [
+      "truck"
+    ]
+  ],
+  "photo_prompt": [
+    [
+      "a photo of an airplane."
+    ],
+    [
+      "a photo of an automobile."
+    ],
+    [
+      "a photo of a bird."
+    ],
+    [
+      "a photo of a cat."
+    ],
+    [
+      "a photo of a deer."
+    ],
+    [
+      "a photo of a dog."
+    ],
+    [
+      "a photo of a frog."
+    ],
+    [
+      "a photo of a horse."
+    ],
+    [
+      "a photo of a ship."
+    ],
+    [
+      "a photo of a truck."
+    ]
+  ],
+  "prompt_ensemble": [
+    [
+      "a photo of an airplane.",
+      "a blurry photo of an airplane.",
+      "a close-up photo of an airplane.",
+      "a bright photo of an airplane.",
+      "a cropped photo of an airplane."
+    ],
+    [
+      "a photo of an automobile.",
+      "a blurry photo of an automobile.",
+      "a close-up photo of an automobile.",
+      "a bright photo of an automobile.",
+      "a cropped photo of an automobile."
+    ],
+    [
+      "a photo of a bird.",
+      "a blurry photo of a bird.",
+      "a close-up photo of a bird.",
+      "a bright photo of a bird.",
+      "a cropped photo of a bird."
+    ],
+    [
+      "a photo of a cat.",
+      "a blurry photo of a cat.",
+      "a close-up photo of a cat.",
+      "a bright photo of a cat.",
+      "a cropped photo of a cat."
+    ],
+    [
+      "a photo of a deer.",
+      "a blurry photo of a deer.",
+      "a close-up photo of a deer.",
+      "a bright photo of a deer.",
+      "a cropped photo of a deer."
+    ],
+    [
+      "a photo of a dog.",
+      "a blurry photo of a dog.",
+      "a close-up photo of a dog.",
+      "a bright photo of a dog.",
+      "a cropped photo of a dog."
+    ],
+    [
+      "a photo of a frog.",
+      "a blurry photo of a frog.",
+      "a close-up photo of a frog.",
+      "a bright photo of a frog.",
+      "a cropped photo of a frog."
+    ],
+    [
+      "a photo of a horse.",
+      "a blurry photo of a horse.",
+      "a close-up photo of a horse.",
+      "a bright photo of a horse.",
+      "a cropped photo of a horse."
+    ],
+    [
+      "a photo of a ship.",
+      "a blurry photo of a ship.",
+      "a close-up photo of a ship.",
+      "a bright photo of a ship.",
+      "a cropped photo of a ship."
+    ],
+    [
+      "a photo of a truck.",
+      "a blurry photo of a truck.",
+      "a close-up photo of a truck.",
+      "a bright photo of a truck.",
+      "a cropped photo of a truck."
+    ]
+  ]
+}

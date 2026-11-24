@@ -1,0 +1,18 @@
+{
+  "selected_method": "photo_prompt",
+  "selection_metric": "development top-1 accuracy",
+  "tie_priority": [
+    "label_only",
+    "photo_prompt",
+    "prompt_ensemble"
+  ],
+  "thresholds": {
+    "0.5": 0.9353257567812249,
+    "0.75": 0.7482685294311393,
+    "0.9": 0.5136721436565947
+  },
+  "threshold_rule": "kth-largest calibration score, k=ceil(target*n); accept score>=threshold",
+  "primary_coverage_target": 0.75,
+  "scores_are_calibrated_probabilities": false,
+  "locked_before_test_inference": true
+}

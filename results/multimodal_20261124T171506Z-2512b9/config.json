@@ -1,0 +1,58 @@
+{
+  "experiment": "clip_prompt_abstention",
+  "seed": 2026,
+  "model_id": "openai/clip-vit-base-patch32",
+  "model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "dataset_id": "uoft-cs/cifar10",
+  "dataset_revision": "0b2714987fa478483af9968de7c934580d0bb9a2",
+  "class_names": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "method_order": [
+    "label_only",
+    "photo_prompt",
+    "prompt_ensemble"
+  ],
+  "templates": {
+    "label_only": [
+      "{label}"
+    ],
+    "photo_prompt": [
+      "a photo of {article} {label}."
+    ],
+    "prompt_ensemble": [
+      "a photo of {article} {label}.",
+      "a blurry photo of {article} {label}.",
+      "a close-up photo of {article} {label}.",
+      "a bright photo of {article} {label}.",
+      "a cropped photo of {article} {label}."
+    ]
+  },
+  "selection_per_class": 100,
+  "threshold_per_class": 100,
+  "coverage_targets": [
+    0.5,
+    0.75,
+    0.9
+  ],
+  "primary_coverage_target": 0.75,
+  "bootstrap_resamples": 2000,
+  "batch_size": 64,
+  "torch_threads": 4,
+  "precision": "float32",
+  "smoke_only": false,
+  "dataset_file_sha256": {
+    "train": "8428b53a88a11ac374111006708df51469e315a22ac6d66470afd9c78d2ae883",
+    "test": "841389e6f2d64f28bf17310e430aebac20ec3ba611a3c5e231dc93c645ce84de"
+  },
+  "test_source_split": "official_test"
+}

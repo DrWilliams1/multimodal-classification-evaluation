@@ -1,0 +1,11 @@
+{
+  "data_download_decode_audit_seconds": 22.80306625900002,
+  "model_loading_seconds": 31.538404119999996,
+  "text_prototype_seconds": 0.7980748250000147,
+  "fixed_logit_scale": 100.0,
+  "development_image_encoding_seconds": 7.248672863999985,
+  "threshold_image_encoding_seconds": 4.985540810000003,
+  "test_image_encoding_seconds": 55.67467626199999,
+  "all_test_prompt_scoring_seconds": 0.1878499010000496,
+  "interpretation": "Setup and batched encoding/scoring; not per-request latency; download cache state varies."
+}

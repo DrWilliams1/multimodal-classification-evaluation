@@ -1,0 +1,10 @@
+split,method,n_examples,accuracy,macro_f1
+development,label_only,1000,0.885,0.8846645724872649
+development,photo_prompt,1000,0.891,0.8897538048246771
+development,prompt_ensemble,1000,0.89,0.88899907655114
+threshold,label_only,1000,0.885,0.8855177482535435
+threshold,photo_prompt,1000,0.892,0.8920144629538302
+threshold,prompt_ensemble,1000,0.893,0.8927028875612848
+test,label_only,10000,0.8735,0.8733876310672827
+test,photo_prompt,10000,0.8823,0.8816792069849676
+test,prompt_ensemble,10000,0.8854,0.884661630718418

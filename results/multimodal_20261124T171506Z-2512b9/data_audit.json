@@ -1,0 +1,23 @@
+{
+  "dataset_id": "uoft-cs/cifar10",
+  "revision": "0b2714987fa478483af9968de7c934580d0bb9a2",
+  "source_files": {
+    "train": {
+      "path_in_repository": "plain_text/train-00000-of-00001.parquet",
+      "sha256": "8428b53a88a11ac374111006708df51469e315a22ac6d66470afd9c78d2ae883",
+      "n_examples": 50000
+    },
+    "test": {
+      "path_in_repository": "plain_text/test-00000-of-00001.parquet",
+      "sha256": "841389e6f2d64f28bf17310e430aebac20ec3ba611a3c5e231dc93c645ce84de",
+      "n_examples": 10000
+    }
+  },
+  "hash_definition": "SHA256 of decoded 32x32x3 RGB uint8 bytes",
+  "train_rows_sharing_exact_pixels_with_test_excluded": 0,
+  "additional_duplicate_train_rows_excluded": 0,
+  "eligible_training_rows": 50000,
+  "duplicate_test_rows_beyond_first": 0,
+  "test_policy": "Keep every official test row; report exact duplicates; no near-duplicate audit.",
+  "pretraining_exposure": "Unknown; zero-shot here means no task-specific weight fitting."
+}
